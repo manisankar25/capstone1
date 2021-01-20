@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default class AllApiCall{
   static  LoadData(){
-       return axios.get("http://jsonplaceholder.typicode.com/photos")
+       return axios.get("http://localhost:3000/maindata")
        .then(res=>
         res.data
         );

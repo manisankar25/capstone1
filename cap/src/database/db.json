@@ -5,5 +5,47 @@
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
     ],
-    "profile": { "name": "typicode" }
+    "profile": { "name": "typicode" },
+    "maindata":[
+      {
+        "id":1,
+        "product":"samsung s10",
+        "productDesc":"good camera",
+        "manufactures":"Sumsung",
+        "price":30000,
+        "quantity":1
+      },
+      {
+        "id":2,
+        "product":"iPhone 10",
+        "productDesc":"good performance",
+        "manufactures":"Apple",
+        "price":50000,
+        "quantity":1
+      },
+      {
+        "id":3,
+        "product":"Note 5pro",
+        "productDesc":"budget Mobile",
+        "manufactures":"MI",
+        "price":10000,
+        "quantity":1
+      },
+      {
+        "id":4,
+        "product":"Honor Play",
+        "productDesc":"good camera,gaming phone",
+        "manufactures":"HONOR",
+        "price":15000,
+        "quantity":1
+      },
+      {
+        "id":5,
+        "product":"Note10",
+        "productDesc":"good camera,good display",
+        "manufactures":"Real Me",
+        "price":20000,
+        "quantity":1
+      }
+    ]
   }

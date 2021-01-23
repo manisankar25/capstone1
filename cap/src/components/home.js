@@ -8,22 +8,16 @@ class Home extends Component {
         }
 
     }
-    componentDidMount() {
-        this.setState({
-            data: this.props.users.users
-        })
-    }
+    
 
     render() {
-        console.log("datatatattatata", this.props.users.users)
-        const data = this.props.users.users;
+        
         return (<div>
             <h1>Product List</h1>
-
             {
                 this.props.users.users.map((dat) => {
                     return (
-                        <div className="card-columns" style={{ display: "inline-block" }}>
+                        <div className="card-columns" style={{ display: "inline" }}>
                             <div className="card" style={{ width: "18rem",border:"solid 1px black",margin:"2px" }}>
                                 <div className="card-header">
                                     {dat.product}

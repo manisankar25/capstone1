@@ -33,9 +33,10 @@ export function loaddata() {
 }
 
 export function addUser(user) {
+  debugger;
 
   return function (dispatch, getState) {
-    return AllApiCalls.saveUser(user).then(user => {
+    return AllApiCalls.addData(user).then(() => {
     console.log("i am saved")
       //  dispatch(addProductSuccess(user));
     }).catch(error => {

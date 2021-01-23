@@ -1,51 +1,189 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" },
-    "maindata":[
-      {
-        "id":1,
-        "product":"samsung s10",
-        "productDesc":"good camera",
-        "manufactures":"Sumsung",
-        "price":30000,
-        "quantity":1
-      },
-      {
-        "id":2,
-        "product":"iPhone 10",
-        "productDesc":"good performance",
-        "manufactures":"Apple",
-        "price":50000,
-        "quantity":1
-      },
-      {
-        "id":3,
-        "product":"Note 5pro",
-        "productDesc":"budget Mobile",
-        "manufactures":"MI",
-        "price":10000,
-        "quantity":1
-      },
-      {
-        "id":4,
-        "product":"Honor Play",
-        "productDesc":"good camera,gaming phone",
-        "manufactures":"HONOR",
-        "price":15000,
-        "quantity":1
-      },
-      {
-        "id":5,
-        "product":"Note10",
-        "productDesc":"good camera,good display",
-        "manufactures":"Real Me",
-        "price":20000,
-        "quantity":1
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "maindata": [
+    {
+      "id": 1,
+      "product": "samsung s10",
+      "productDesc": "good camera",
+      "manufactures": "Sumsung",
+      "price": 30000,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "product": "iPhone 10",
+      "productDesc": "good performance",
+      "manufactures": "Apple",
+      "price": 50000,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "product": "Note 5pro",
+      "productDesc": "budget Mobile",
+      "manufactures": "MI",
+      "price": 10000,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "product": "Honor Play",
+      "productDesc": "good camera,gaming phone",
+      "manufactures": "HONOR",
+      "price": 15000,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "product": "Note10",
+      "productDesc": "good camera,good display",
+      "manufactures": "Real Me",
+      "price": 20000,
+      "quantity": 1
+    },
+    {
+      "product": "cx",
+      "productDesc": "fd",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 8
+    },
+    {
+      "product": "fd",
+      "productDesc": "fd",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 9
+    },
+    {
+      "product": "re",
+      "productDesc": "fdv",
+      "manufactures": "eee",
+      "price": "",
+      "quantity": "",
+      "id": 10
+    },
+    {
+      "product": "test cy",
+      "productDesc": "test 2",
+      "manufactures": "test3",
+      "price": "",
+      "quantity": "",
+      "id": 11
+    },
+    {
+      "product": "test cy",
+      "productDesc": "test 2",
+      "manufactures": "test3",
+      "price": "",
+      "quantity": "",
+      "id": 12
+    },
+    {
+      "product": "test1",
+      "productDesc": "test2",
+      "manufactures": "test3",
+      "price": "45",
+      "quantity": "1",
+      "id": 13
+    },
+    {
+      "product": "1",
+      "productDesc": "2",
+      "manufactures": "3",
+      "price": "4",
+      "quantity": "5",
+      "id": 14
+    },
+    {
+      "product": "manis",
+      "productDesc": "sankaesd",
+      "manufactures": "knkjgskf",
+      "price": "45453",
+      "quantity": "4547",
+      "id": 15
+    },
+    {
+      "product": "ds2dsf",
+      "productDesc": "`njnbjk",
+      "manufactures": "d",
+      "price": "45847",
+      "quantity": "4",
+      "id": 16
+    },
+    {
+      "product": "hjh",
+      "productDesc": "",
+      "manufactures": "j",
+      "price": "",
+      "quantity": "54",
+      "id": 17
+    },
+    {
+      "product": "ds",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 18
+    },
+    {
+      "product": "",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 19
+    },
+    {
+      "product": "fd",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 20
+    },
+    {
+      "product": "",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 21
+    },
+    {
+      "product": "",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 22
+    },
+    {
+      "product": "",
+      "productDesc": "",
+      "manufactures": "",
+      "price": "",
+      "quantity": "",
+      "id": 23
+    }
+  ]
+}

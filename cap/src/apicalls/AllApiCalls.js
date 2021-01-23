@@ -8,6 +8,14 @@ export default class AllApiCall{
         );
     }
 
+    static addData(user){
+        debugger;
+        return axios.post("http://localhost:3000/maindata",user)
+        .then(()=>{
+            alert("success")
+        })
+    }
+
 
     static deleteProduct(id){
         return axios.delete('http://jsonplaceholder.typicode.com/photos/'+id).then(res=>{

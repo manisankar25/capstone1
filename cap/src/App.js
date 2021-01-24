@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './components/home';
 import Addproduct from './components/addProduct';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ProductDetails from './components/productDetails'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Switch>
           <Route exact path='/'> <Home /></Route>
           <Route  path='/addProduct'> <Addproduct /></Route>
+          <Route path='/productDetails'><ProductDetails /></Route>
         </Switch>
       </Router>
     </div>

@@ -3,7 +3,9 @@ import Home from './components/home';
 import Addproduct from './components/addProduct';
 import ProductDetails from './components/productDetails'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LoginPage from './components/loginPage';
 
+import SignUpPage from './components/signUpPage';
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
 
       <Router>
         <Switch>
-          <Route exact path='/'> <Home /></Route>
-          <Route  path='/addProduct'> <Addproduct /></Route>
+          <Route exact path='/' > <LoginPage /></Route>
+          <Route path='/signup'>  <SignUpPage /></Route>
+          <Route path='/addProduct'> <Addproduct /></Route>
           <Route path='/productDetails'><ProductDetails /></Route>
+          <Route path='/home'><Home /></Route>
         </Switch>
       </Router>
     </div>

@@ -23,6 +23,12 @@ export default class AllApiCall{
         alert("product Successfully deleted")
         })
     }
+    static saveUser(user){
+        return axios.post('http://localhost:3000/userdetails',user).then(res=>{
+            console.log(res.data);
+            alert("successful saved")
+        })
+    }
 
 
 }

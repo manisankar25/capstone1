@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withRouter } from "react-router";
 
 class Home extends Component {
-    constructor(props) {
+    constructor(props) { 
         super(props)
         this.state = {
             data: []
@@ -17,7 +17,6 @@ class Home extends Component {
         
     }
     render() {
-
         return (<div>
             <h1>Product List</h1>
             {

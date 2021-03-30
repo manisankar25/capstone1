@@ -28,11 +28,11 @@ export default function userReducer(state=initialState,action){
             ...state,
             Object.assign({}, action.user)
           ];
-        // case types.ADD_USER_SUCCESS:
-        //   return [
-        //     ...state,
-        //     Object.assign({}, action.user)
-        //   ];
+        case types.ADD_USER_SUCCESS:
+          return [
+            ...state,
+            Object.assign({}, action.user)
+          ];
         default:
           return state;
       }

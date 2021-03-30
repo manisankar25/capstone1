@@ -33,17 +33,29 @@ export function loaddata() {
 }
 
 export function addUser(user) {
-  debugger;
 
   return function (dispatch, getState) {
     return AllApiCalls.addData(user).then(() => {
-    console.log("i am saved")
+      console.log("i am saved")
       //  dispatch(addProductSuccess(user));
     }).catch(error => {
       throw (error);
     });
   };
 }
+
+export function addUserDetails(user) {
+
+  return function (dispatch, getState) {
+    return AllApiCalls.saveUser(user).then(() => {
+      console.log("i am saved")
+      //  dispatch(addProductSuccess(user));
+    }).catch(error => {
+      throw (error);
+    });
+  };
+}
+
 
 export function addProduct(user) {
 
@@ -69,8 +81,8 @@ export function deleteProduct(id) {
 export function getDetails(id) {
   return function (dispatch, getState) {
     return AllApiCalls.getData(id).then(user => {
-   
-      console.log("in action",user);
+
+      console.log("in action", user);
       dispatch(getProductDetails(user));
     }).catch(error => {
       throw (error);

@@ -2,6 +2,8 @@ import React,{Component} from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch, NavLink } from 'react-router-dom';
 import * as userActions from '../actions/userAction';
 import toastr from 'toastr';
+import axios from 'axios';
+
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -23,11 +25,21 @@ export class SignUpPage extends Component{
         totaluserdata.mobileNumber=this.refs.mobileNumber.value;
         
 
-        this.props.actions.addUserDetails(totaluserdata)
-        .then(() => toastr.success('User added'))
-        .catch(error => {
-          alert(error);
-        });
+    //     this.props.actions.addUserDetails(totaluserdata)
+    //     .then(() =>{
+
+    //     toastr.success('User added');
+    //     alert("added")
+    // })
+    //     .catch(error => {
+    //       alert(error);
+    //     });
+
+
+    axios.post('http://localhost:3000/userdetails',totaluserdata).then((res) => {
+            console.log(res.data);
+            alert("added")
+        })
 
     }
     render(){

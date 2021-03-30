@@ -37,6 +37,9 @@ import { withRouter } from "react-router";
             }
         })
     }
+    componentDidMount(){
+        
+    }
 
     render() {
         return (

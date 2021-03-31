@@ -16,7 +16,9 @@ class Home extends Component {
         this.props.history.push({pathname:'/productDetails',singleData:dat});
         
     }
+    
     render() {
+        console.log("hommmmmmmmmmmm",this.props.users.users)
         return (<div>
             <h1>Product List</h1>
             {

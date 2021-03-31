@@ -5,6 +5,7 @@ import AllApiCall from '../apicalls/AllApiCalls';
 import axios from 'axios';
 import Home from './home';
 import { withRouter } from "react-router";
+import Barchart from './barchart';
 
  class LoginPage extends Component {
     constructor(props) {
@@ -73,7 +74,7 @@ import { withRouter } from "react-router";
                     </div>
                 </div>
             </body>
-            
+            <Barchart></Barchart>
             </div>
         )
     }
